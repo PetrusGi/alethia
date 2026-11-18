@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Alethia — software studio</title>
+<meta name="description" content="Alethia builds small, honest Android tools. No subscriptions, no accounts, no cloud." />
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0e0e12; color: #e6e6eb;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 5rem 1.5rem 6rem; }
+  .mark { display: flex; align-items: center; gap: .7rem; margin-bottom: 2.5rem; }
+  .bars { display: flex; align-items: flex-end; gap: 4px; height: 26px; }
+  .bars i { display: block; width: 6px; border-radius: 3px; background: #4fc3f7; }
+  .bars i:nth-child(1) { height: 14px; }
+  .bars i:nth-child(2) { height: 26px; }
+  .bars i:nth-child(3) { height: 19px; }
+  .name { font-size: 1.05rem; letter-spacing: .22em; text-transform: uppercase; color: #fff; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.15; margin: 0 0 1rem; color: #fff; letter-spacing: -.02em; }
+  .lede { color: #9e9ea9; font-size: 1.05rem; margin: 0 0 3rem; max-width: 34rem; }
+  .card {
+    display: block; text-decoration: none; color: inherit;
+    background: #16161d; border: 1px solid #26262e; border-radius: 14px;
+    padding: 1.4rem 1.5rem; margin-bottom: 1rem; transition: border-color .15s ease;
+  }
+  .card:hover { border-color: #4fc3f7; }
+  .card h2 { margin: 0 0 .35rem; font-size: 1.1rem; color: #fff; }
+  .card p { margin: 0; color: #9e9ea9; font-size: .93rem; }
+  .tag {
+    display: inline-block; margin-top: .8rem; font-size: .72rem; letter-spacing: .1em;
+    text-transform: uppercase; color: #4fc3f7;
+  }
+  h3 { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: #616170; margin: 3rem 0 .75rem; }
+  ul { margin: 0; padding-left: 1.1rem; color: #b8b8c2; }
+  li { margin: .3rem 0; }
+  a { color: #4fc3f7; }
+  footer {
+    margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid #26262e;
+    color: #616170; font-size: .82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">
+    <span class="bars"><i></i><i></i><i></i></span>
+    <span class="name">Alethia</span>
+  </div>
+
+  <h1>Small, honest tools for Android.</h1>
+  <p class="lede">
+    Alethia is an independent software studio. Every app we ship does one thing well,
+    works offline, and is paid for once &mdash; no subscriptions, no accounts, no cloud.
+    If an app needs a sensor, it uses the sensor properly and tells you what it is doing.
+  </p>
+
+  <a class="card" href="#">
+    <h2>Sound Meter</h2>
+    <p>A sound level meter that does not lie about its microphone. IEC 61672 A/C/Z
+       weighting, real calibration, session history, CSV export.</p>
+    <span class="tag">Coming to Google Play</span>
+  </a>
+
+  <h3>How we work</h3>
+  <ul>
+    <li>One-time pricing. No subscription tiers, no dark patterns.</li>
+    <li>Everything runs on your device. Audio, photos and files are never uploaded.</li>
+    <li>No advertising SDKs and no analytics SDKs.</li>
+  </ul>
+
+  <h3>Legal</h3>
+  <ul>
+    <li><a href="https://petrusgi.github.io/soundmeter-privacy/">Privacy policy &mdash; Sound Meter</a></li>
+  </ul>
+
+  <footer>
+    Alethia &middot; registered in the Netherlands<br />
+    Contact: through the developer contact details on our Google Play listings.
+  </footer>
+</main>
+</body>
+</html>
